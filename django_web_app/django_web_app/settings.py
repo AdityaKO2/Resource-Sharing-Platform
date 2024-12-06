@@ -25,7 +25,8 @@ SECRET_KEY = '@5&-q%^o=@mb@=@e%b9yz^b#l-2)w&_s0ick#=wy3kw36$z($g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['resource-sharing-platform-eight.vercel.app', '127.0.0.1', 'localhost']
+# ALLOWED_HOSTS = ['resource-sharing-platform-eight.vercel.app', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS  = ["*"]
 
 
 
